@@ -1,3 +1,15 @@
 h1{
     text-align: center;
 }
+
+
+
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+header nav li{
+    flex-basis: 11%;
+    text-align: center;
+}

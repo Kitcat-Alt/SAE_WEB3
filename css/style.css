@@ -1,3 +1,31 @@
-h1.acc_titre{
-    color: gray;
+header{
+    background-color: white;
+}
+
+header > img{
+    height: 50px;
+}
+
+header > h1.acc_titre{
+    color: #9173d3;
+}
+
+header nav li{
+    list-style-type: none;
+    margin-right: 5em;
+    margin-left: 5em;
+    margin-bottom: 1em;
+    border-radius: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: solid black 0.125em;
+}
+
+header nav li:hover{
+    background-color: #9173d3;
+    transition: 0.40s all;
+}
+
+body{
+    background-color: #e1d8f3;
 }
