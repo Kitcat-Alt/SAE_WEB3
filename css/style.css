@@ -1,5 +1,5 @@
 header{
-    background-color: white;
+    background-color: #e1d8f3;
 }
 
 header > img{
@@ -12,9 +12,6 @@ header > h1.acc_titre{
 
 header nav li{
     list-style-type: none;
-    margin-right: 5em;
-    margin-left: 5em;
-    margin-bottom: 1em;
     border-radius: 2.5em;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -26,6 +23,30 @@ header nav li:hover{
     transition: 0.40s all;
 }
 
-body{
+main > section{
+    display: flex;
+}
+
+section > section{
+    flex-basis: 40%;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    display: flex;
+    padding-left: 7em;
+    padding-right: 7em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+img{
+    height: 200px;
+}
+
+section > p{
+    padding-left: 3em;
+}
+
+footer{
     background-color: #e1d8f3;
+    padding: 2.7em;
 }
