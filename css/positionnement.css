@@ -12,7 +12,6 @@ header h1{
     flex-basis: 20%;
     text-align: center;
     margin-left: 2em;
-
 }
 header nav{
     flex-basis: 65%;
@@ -29,4 +28,8 @@ header img.iut{
     flex-basis: 5%;
     width: 5.5em;
     height: 4em;
+}
+section.acc_section1, section.acc_section2{
+    display: flex;
+    flex-wrap: nowrap;
 }
