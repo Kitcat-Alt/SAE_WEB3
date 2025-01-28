@@ -1,52 +1,10 @@
 header{
-    background-color: #e1d8f3;
+    box-shadow: 0px 5px 5px gray;
 }
-
-header > img{
-    height: 50px;
-}
-
-header > h1.acc_titre{
-    color: #9173d3;
-}
-
 header nav li{
     list-style-type: none;
-    border-radius: 2.5em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    border: solid black 0.125em;
 }
-
 header nav li:hover{
-    background-color: #9173d3;
-    transition: 0.40s all;
-}
-
-main > section{
-    display: flex;
-}
-
-section > section{
-    flex-basis: 40%;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    display: flex;
-    padding-left: 7em;
-    padding-right: 7em;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-img{
-    height: 200px;
-}
-
-section > p{
-    padding-left: 3em;
-}
-
-footer{
-    background-color: #e1d8f3;
-    padding: 2.7em;
+    text-shadow: 5px 5px 3px gray;
+    transition: 0.4s;
 }
