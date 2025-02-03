@@ -3,6 +3,7 @@ body, html{
     padding: 0;
 }
 header{
+    padding-top: 0.9em;
     display: flex;
     flex-wrap: nowrap;
 }
@@ -26,12 +27,13 @@ header nav ul{
     flex-wrap: wrap;
 }
 header nav li{
-    padding-left: 2em;
+    padding-right: 3em;
 }
 header img.iut{
     flex-basis: 5%;
     width: 5.5em;
     height: 4em;
+    padding-bottom: 0.5em;
 }
 
 section.acc_section1, section.acc_section2, section.acc_section3{
@@ -61,6 +63,12 @@ section.acc_section1, section.acc_section2, section.acc_section3{
     margin: 0.7em;
     margin-bottom: 8em;
 }
-footer{
-    width: 100%;
-}
+footer section{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 1em;
+ }
+ footer article{
+    flex-basis: 30%;
+    flex-grow: 1;
+ }
