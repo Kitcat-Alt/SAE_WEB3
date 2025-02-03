@@ -1,5 +1,11 @@
+body{
+    background-image: url(../img/fond-ecran.jpeg);
+    background-size: cover;
+    backdrop-filter: sepia(70%);
+}
 header{
     box-shadow: 0px 5px 5px gray;
+    background-color: white;
 }
 header nav a{
     text-decoration: none;
@@ -15,8 +21,10 @@ header nav li:hover{
 }
 footer{
     box-shadow: 0px -5px 5px gray;
+    background-color: white;
 }
 section.acc_section1, section.acc_section2, section.acc_section3{
     border: solid 0.2em black;
     border-radius: 5%;
+    background-color: white;
 }

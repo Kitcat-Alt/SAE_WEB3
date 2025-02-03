@@ -1,3 +1,7 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     flex-wrap: nowrap;
@@ -43,6 +47,8 @@ section.acc_section1, section.acc_section2, section.acc_section3{
 
 .article_intro_acc{
     flex-basis: 50%;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 .container_acc{
     display: flex;
@@ -53,4 +59,8 @@ section.acc_section1, section.acc_section2, section.acc_section3{
     flex-grow: 1;
     padding: 0.8em;
     margin: 0.7em;
+    margin-bottom: 8em;
+}
+footer{
+    width: 100%;
 }
