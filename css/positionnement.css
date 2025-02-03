@@ -29,7 +29,28 @@ header img.iut{
     width: 5.5em;
     height: 4em;
 }
-section.acc_section1, section.acc_section2{
+
+section.acc_section1, section.acc_section2, section.acc_section3{
+    display: flex;  
+    flex-wrap: wrap;
+}
+
+.section_intro_acc{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.article_intro_acc{
+    flex-basis: 50%;
+}
+.container_acc{
     display: flex;
     flex-wrap: nowrap;
+}
+section.acc_section1, section.acc_section2, section.acc_section3{
+    flex-basis: 30%;
+    flex-grow: 1;
+    padding: 0.8em;
+    margin: 0.7em;
 }

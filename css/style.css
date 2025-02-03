@@ -16,3 +16,7 @@ header nav li:hover{
 footer{
     box-shadow: 0px -5px 5px gray;
 }
+section.acc_section1, section.acc_section2, section.acc_section3{
+    border: solid 0.2em black;
+    border-radius: 5%;
+}
