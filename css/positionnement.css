@@ -40,17 +40,14 @@ section.acc_section1, section.acc_section2, section.acc_section3{
     display: flex;  
     flex-wrap: wrap;
 }
-
 .section_intro_acc{
     display: flex;
     justify-content: center;
-    margin-top: 1em;
 }
-
 .article_intro_acc{
     flex-basis: 50%;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .container_acc{
     display: flex;

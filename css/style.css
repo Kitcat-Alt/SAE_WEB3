@@ -29,7 +29,7 @@ section.acc_section1, section.acc_section2, section.acc_section3{
     border-radius: 5%;
     background-color: #1e1e23;
 }
-.container_acc p, .container_acc h2{
+.container_acc p, .container_acc li, .container_acc h2{
     color: white;
 }
 footer{
