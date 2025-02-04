@@ -63,6 +63,9 @@ section.acc_section1, section.acc_section2, section.acc_section3{
     margin: 0.7em;
     margin-bottom: 8em;
 }
+.container_acc h2{
+    text-align: center;
+}
 footer section{
     display: flex;
     flex-wrap: nowrap;
