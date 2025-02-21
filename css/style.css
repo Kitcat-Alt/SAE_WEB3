@@ -26,7 +26,7 @@ header nav li:hover{
 }
 section.acc_section1, section.acc_section2, section.acc_section3{
     border: solid 0.1em white;
-    border-radius: 5%;
+    border-radius: 15px;
     background-color: #1e1e23;
 }
 .container_acc p, .container_acc li, .container_acc h2{
