@@ -45,6 +45,56 @@ footer section{
     flex-basis: 30%;
     flex-grow: 1;
  }
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    header nav li {
+        padding-right: 0;
+        padding-bottom: 0.5em;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    caption {
+        font-size: 0.8em;
+    }
+
+    footer section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    footer article {
+        flex-basis: 100%;
+    }
+    
+    .section_intro_inge, .section_inge_1, .section_inge_2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .article_intro_inge, 
+    .domaine_inge, .ecoles_inge, 
+    .apprentissage_inge, .etranger_inge, .autre {
+        flex-basis: 90%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
 /*------------------------------------------------------------*/
 
 /*------------------------- Position Index-------------------------*/
