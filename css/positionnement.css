@@ -69,32 +69,50 @@ footer section{
     section.acc_section1, section.acc_section2, section.acc_section3{
         flex-basis: 100%;
         margin-bottom: 2em;
-    }
-
-        section.container_section_reconv {
+    section.container_section_reconv {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    
     #art_intro_reconv, 
-    section.filieres_reconv{
+    section.filieres_reconv {
         flex-basis: 100%;
-        width: 90%;
+        width: 95%;
         margin: 0.5em auto;
         padding: 0.5em;
     }
 
+
     table {
         display: block;
         width: 100%;
+        max-width: 100%;
         overflow-x: auto;
+        table-layout: fixed; 
+        border-collapse: collapse;
+    }
+
+    th, td {
+        font-size: 0.9em; 
+        word-wrap: break-word;
+        padding: 5px;
+        text-align: center;
     }
 
     caption {
         font-size: 0.8em;
+        padding: 5px;
     }
+
+    #tableau_nb_reconv,
+    #tableau_reconv_filieres,
+    #raison_reconv_table {
+        display: block;
+        overflow-x: auto;
+        white-space: normal; /* Évite les coupures de texte */
+    }
+
 
     footer section {
         flex-direction: column;
