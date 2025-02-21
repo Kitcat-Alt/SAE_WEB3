@@ -131,3 +131,18 @@ caption > a {
     color: white;
 }
 */
+
+/*
+@media screen and (max-width: 600px) {
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    caption {
+        font-size: 0.8em;
+    }
+}
+
+*/
