@@ -71,6 +71,21 @@ footer section{
         margin-bottom: 2em;
     }
 
+        section.container_section_reconv {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
+    #art_intro_reconv, 
+    section.filieres_reconv{
+        flex-basis: 100%;
+        width: 90%;
+        margin: 0.5em auto;
+        padding: 0.5em;
+    }
+
     table {
         display: block;
         width: 100%;
