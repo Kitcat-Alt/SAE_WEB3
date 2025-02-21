@@ -47,3 +47,87 @@ footer li{
     color: white;
     list-style-type: none;
 }
+
+/*
+section.filieres_reconv{
+    border: solid 0.1em white;
+    border-radius: 0.7em;
+    background-color: #1e1e23;
+}
+
+section.filieres_reconv p{
+    color: white;
+}
+
+
+#tableau_nb_reconv {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid #ddd;
+
+  }
+  
+
+  
+#tableau_nb_reconv  th {
+    background-color: #333;
+    color: white;
+  }
+
+caption > a {
+    text-decoration: none;
+    color: purple;
+    
+}
+
+#tableau_reconv_filieres {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+#tableau_reconv_filieres  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+#tableau_reconv_filieres  th {
+    background-color: #333;
+    color: white;
+  }
+
+#raison_reconv_table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+#raison_reconv_table th, #raison_reconv_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+#raison_reconv_table th {
+    background-color: #333;
+    color: white;
+  }
+
+ h2.titres_reconv{
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+}
+
+#art_intro_reconv{
+    color: white;
+}
+*/
