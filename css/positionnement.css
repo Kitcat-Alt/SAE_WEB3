@@ -77,3 +77,45 @@ footer section{
     flex-grow: 1;
  }
 
+/*
+section.container_section_reconv{
+    display : flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#intro_reconv{
+    display: flex;
+    justify-content: center;
+}
+
+#art_intro_reconv{
+    color: white;
+    flex-basis: 50%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+section.filieres_reconv{
+    flex-basis: 48.9%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.4em;
+    margin-right: 1em;
+    margin-left: 1em;
+
+}
+
+table {
+    padding: 8px;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: center;
+    font-style: italic;
+    color: white; 
+    padding: 10px;
+  }
+
+*/
