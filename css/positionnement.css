@@ -1,3 +1,4 @@
+/*-------------------Position Commun---------------------*/
 body, html{
     margin: 0;
     padding: 0;
@@ -35,7 +36,18 @@ header img.iut{
     height: 4em;
     padding-bottom: 0.5em;
 }
+footer section{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 1em;
+ }
+ footer article{
+    flex-basis: 30%;
+    flex-grow: 1;
+ }
+/*------------------------------------------------------------*/
 
+/*------------------------- Position Index-------------------------*/
 section.acc_section1, section.acc_section2, section.acc_section3{
     display: flex;  
     flex-wrap: wrap;
@@ -67,17 +79,9 @@ section.acc_section1, section.acc_section2, section.acc_section3{
 .container_acc h2{
     text-align: center;
 }
-footer section{
-    display: flex;
-    flex-wrap: nowrap;
-    margin-right: 1em;
- }
- footer article{
-    flex-basis: 30%;
-    flex-grow: 1;
- }
+/*------------------------------------------------------------*/
 
-/*
+/*-------------------- Position Reconversion-------------------*/
 section.container_section_reconv{
     display : flex;
     flex-wrap: nowrap;
@@ -118,4 +122,90 @@ caption {
     padding: 10px;
   }
 
-*/
+/*------------------------------------------------------------*/
+
+/*-----------------Positionnement Ingenieur-------------------*/
+.section_intro_inge{
+    display: flex;
+    justify-content: center;
+}
+
+.article_intro_inge{
+    flex-basis: 50%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.section_inge_1 ul {
+    padding: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.section_inge_1 ul > li {
+    margin: 10px 0;
+    padding: 10px;
+    
+}
+
+
+.domaine_inge, .ecoles_inge{
+    flex-basis: 30%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.domaine_inge > p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.section_inge_1 h2{
+    text-align: center;
+}
+
+.section_inge_1{
+    display: flex;
+    justify-content: center;
+}
+
+.section_inge_2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.apprentissage_inge, .etranger_inge, .autre{
+    flex-basis: 30%;
+    margin-left: 1em;
+}
+
+.apprentissage_inge ol > li{
+    margin-left: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.etranger_inge ul {
+    padding: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.etranger_inge ul > li {
+    margin: 10px 0;
+    padding: 10px;
+    
+}
+
+.apprentissage_inge h3{
+    margin-left: 0.5em;
+}
+
+.section_inge_2 p{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.section_inge_2 h2{
+    text-align: center;
+}
+/*---------------------------------------*/
