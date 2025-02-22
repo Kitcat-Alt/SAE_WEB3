@@ -69,6 +69,7 @@ footer section{
     section.acc_section1, section.acc_section2, section.acc_section3{
         flex-basis: 100%;
         margin-bottom: 2em;
+    }
     section.container_section_reconv {
         flex-direction: column;
         align-items: center;
