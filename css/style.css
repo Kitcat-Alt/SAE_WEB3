@@ -192,3 +192,53 @@ caption > a {
     
 }
 /*-------------------------------------------*/
+
+/*------------Style Matser--------------*/
+.section_principale_master{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.articles_master article{
+    background-color: #1e1e23;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.aside_master {
+    border-style: solid;
+    border-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1e1e23;  
+    border-radius: 10px; 
+}
+
+.aside_master article img{
+    height: 10em;
+    width: 10em;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.section_principale_master article:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.aside_master > article > img:hover {
+    transform: scale(1.05); 
+}
+
+
+.table_master {
+    border-collapse: collapse;
+    margin-left: 1em;
+}
+
+.table_master tr, td {
+    border: 1px solid black; 
+    text-align: left; 
+}
+/*-------------------------------------------*/
+
