@@ -302,3 +302,56 @@ caption {
     text-align: center;
 }
 /*---------------------------------------*/
+
+/*--------Positionnement Master----------*/
+.section_principale_master{
+    display: flex;
+    flex-basis: 30%;
+}
+
+.articles_master{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    margin-right: 13em;
+    margin-left: 3em;
+    text-align: center;
+}
+
+.articles_master article{
+    margin: 1em;
+    padding-top: 7em;
+    padding-bottom: 10em;
+}
+
+.articles_master table{
+    width: 97%;
+    border-collapse: collapse; 
+}
+
+.articles_master td,tr{
+    border: 1px solid white; 
+    padding: 5px; 
+    text-align: left;
+}
+
+.articles_master p{
+    padding: 1em;
+}
+
+.aside_master{
+    margin-top: 1em;
+}
+
+.aside_master h3{
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.aside_master article{
+    padding-right: 15em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+/*------------------------------*/
