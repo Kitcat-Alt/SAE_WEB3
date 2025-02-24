@@ -142,9 +142,18 @@ footer section{
     }
 
     .section_principale_master {
-        flex-direction: column;
+        display: block;
+        flex-basis: 100%;
     }
-    
+
+    .articles_master {
+        display: block;
+        flex-direction: column;
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
     .body_master img {
       width: 100%; 
       height: auto;
