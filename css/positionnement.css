@@ -305,8 +305,8 @@ caption {
     margin-right: 0.5em;
 }
 .etranger_inge ul > li {
-    margin: 10px 0;
-    padding: 10px;
+    margin: 0.7em ;
+    padding: 0.7em;
     
 }
 
@@ -321,6 +321,27 @@ caption {
 
 .section_inge_2 h2{
     text-align: center;
+}
+
+.sources{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.sources h3{
+    text-align: center;
+}
+
+.sources ul{
+    padding: 0;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+.sources ul > li{
+    margin: 0.7em ;
+    padding: 0.7em;
 }
 /*---------------------------------------*/
 

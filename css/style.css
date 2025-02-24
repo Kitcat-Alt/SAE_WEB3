@@ -197,6 +197,27 @@ caption > a {
     border-left: 5px solid white;
     
 }
+
+
+.sources article{
+    background-color: #1e1e23;
+    border: 2px solid white;
+    border-radius: 5%;
+    color: white;
+}
+
+.sources ul{
+    list-style-type: none;
+}
+
+.sources ul > li{
+    background-color: #444459;
+    border-left: 5px solid white;
+}
+
+.sources a{
+    color: white;
+}
 /*-------------------------------------------*/
 
 /*------------Style Matser--------------*/
