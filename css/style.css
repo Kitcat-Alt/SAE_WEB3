@@ -140,6 +140,12 @@ caption > a {
 /*-------------------------------------------*/
 
 /*----------------Style Ingenieur----------------*/
+
+.main_inge a{
+    text-decoration: none;
+    color: purple;
+}
+
 .section_intro_inge p{
     color: white;
 }
